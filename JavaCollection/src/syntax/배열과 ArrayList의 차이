@@ -1,0 +1,32 @@
+==== ArrayList와 배열(Array)의 차이 ====
+	
+	[배열]
+	1. 선언 : 
+		String[] arr = new String[10];
+	2. 길이 : 
+		arr.length
+	3. 추가 : 
+		arr[i]="샘플"
+	4. 삭제 : 
+		arr[i]=null
+	5. 검색 : 
+		boolean falg = false;
+		for(String str : arr){
+			if("검색어".eqauls(str)){
+				flag=true;
+				break;
+	}
+	
+	[ArrayList]
+	1. 선언 : 
+		List<String> list = new ArrayList<String>();
+		List 인터페이스
+	2. 길이 :
+		list.size()
+	3. 추가 : 
+		list.add("샘플")
+	4. 삭제 : 
+		list.remove(1) // 인덱스
+	5. 찾기 : 
+		list.contains("샘플")
+		
